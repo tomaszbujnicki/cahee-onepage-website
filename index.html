@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Zadanie 2</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+
+	<nav class="nav-fixed">
+		<div class="nav-fixed__flex">
+		<span class="nav-fixed__logo">Cahee</span>
+		<ul>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#home">home</a></li>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#about">about</a></li>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#services">services</a></li>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#gallery">gallery</a></li>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#blog">blog</a></li>
+			<li class="nav-fixed__li"><a class="nav-fixed__a" href="#contact">contact</a></li>
+		</ul>
+			<img id="scroll" src="img/scroll.png" alt="" class="scroll-fixed">
+		</div>
+	</nav>
+
+	<section id="home" class="site-part site-part--home">
+
+		<div class="site-part__grid">
+
+			
+		</div>
+		<div class="site-part__grid">
+
+
+		</div>
+	</section>
+	<section id="about" class="site-part site-part--turkus">
+		<div class="site-part__grid">
+			<div class="site-part__block-center">
+				
+			</div>
+
+			<div class="site-part__block-center">
+				<h2 class="container__h2">About Us</h2>
+				<div class="about-us__text">
+					<p class="about-us__p">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+					<p class="about-us__p">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services" class="site-part site-part--blue">
+		<div class="site-part__grid">
+			<div class="site-part__block-center">
+				<div class="services__services-list">
+					<div class="services__item">
+						<div class="services__item-name">
+							<span>Online Shopping</span>
+						</div>
+						<div class="services__item-icon"><img src="img/icon-cart.png" alt=""></div>
+					</div>
+					<div class="services__item">
+						<div class="services__item-name">
+							<span>Quality Product</span>
+						</div>
+						<div class="services__item-icon"><img src="img/icon-quality.png" alt=""></div>
+					</div>
+					<div class="services__item">
+						<div class="services__item-name">
+							<span>Domestic 	&amp; International Delivery</span>
+						</div>
+						<div class="services__item-icon"><img src="img/icon-international.png" alt=""></div>
+					</div>
+					<div class="services__item">
+						<div class="services__item-name">
+							<span>Well Organized</span>
+						</div>
+						<div class="services__item-icon"><img src="img/icon-carrot.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="site-part__block-center">
+				<div class="txtoverimg">
+					<h2 class="txtoverimg__h2">Our Services</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="gallery" class="site-part">
+		<span>Gallery</span>
+		<div class="">
+			<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<img src="" alt="">
+		<button value="VIEW MORE"></button>
+	</section>
+	<section id="subscribe" class="site-part">
+		<h3>Subscribe To Us</h3>
+		<div class="">
+			<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+		<form action="">
+			<input type="text">
+			<input type="button">
+		</form>
+	</section>
+	<section id="blog" class="site-part">
+		<h2>Blog</h2>
+		<div class="">
+			<p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+		</div>
+		<div class=""></div>
+		<div class=""></div>
+		<div class=""></div>
+		<button value="VIEW MORE"></button>
+	</section>
+	<section id="contact" class="site-part">
+		<h2>Contact</h2>
+		<div class="">
+			<p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+		</div>
+		<div class="">
+			<form action="">
+			</form>
+		</div>
+		<div class="">
+		</div>
+	</section>
+	<div id="footer" class="site-part">
+		<span></span>
+		<img src="" alt="">
+		<a href=""></a>
+	</div>
+	<script>
+		$(window).scroll(function() {
+			var top = $(window).scrollTop();
+			if (top > 200) {
+				$('.nav-fixed').addClass('nav-fixed--smaller');
+				$('#scroll').hide();
+			} else {
+				$('.nav-fixed').removeClass('nav-fixed--smaller');
+				$('#scroll').show();
+			}
+		});
+
+	</script>
+</body>
+
+</html>

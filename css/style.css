@@ -1,0 +1,238 @@
+.container {
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	line-height: 1.5;
+}
+
+
+
+.container__h1 {
+	font-size: 60px;
+	font-weight: 900;
+
+}
+
+.container__h2 {
+	font-size: 90px;
+	font-weight: 700;
+	color: white;
+}
+
+.container__h3 {}
+
+
+.home {
+	background-repeat: no-repeat;
+	background-color: white;
+	background-image: url(../img/truskawka-w-jogurcie.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container__button{
+	font-size: 20px;
+	color: #fff;
+	background-color: #ff6033;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: none;
+	padding: 15px 25px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+
+
+.container__div-text {
+	max-width: 375px;
+}
+
+/*
+@media (orientation: portrait){
+	.home {
+		background-image: url(../img/truskawka-w-jogurcie-mobile.png);
+	}
+}*/
+
+.scroll-fixed {
+	position: fixed;
+	margin: 0 auto;
+	display: block;
+	left: 0;
+	right: 0;
+	bottom: 10vh;
+	animation-name: grow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes grow {
+	0% 		{transform: scale(1);}
+	50%		{transform: scale(1.3);}
+	100%	{transform: scale(1);}
+}
+/*  NAV	*/
+.nav-fixed {
+	position: fixed;
+	height: 100px;	
+	width: 100vw;
+	transition: 300ms;
+	padding-top: 30px;
+}
+.nav-fixed__flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.nav-fixed__li{
+	display: inline;
+}
+.nav-fixed__a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-left: 35px;
+}
+.nav-fixed__logo {
+	font-family: Pacifico;
+	font-size: 50px;
+}
+
+.nav-fixed--smaller{
+	background-color: rgba(255, 255, 255, 0.7);	/* instead of none	*/
+	height: 70px; 								/* instead of 100px	*/
+	padding-top: 10px;
+/*	*/
+}
+
+
+/*  SECTIION "ABOUT US"	*/
+
+.about-us__img {
+	width: 100%;
+}
+.about-us__text {
+	color: white;
+}
+
+.about-us__p {
+	margin-bottom: 20px;
+	text-align: justify;
+	hyphens: auto;
+}
+
+
+
+
+/* BLOCK .site-part	- site's part container for other blocks*/
+.site-part {
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.site-part--home {
+	background-repeat: no-repeat;
+	background-image: url(../img/truskawka-w-jogurcie.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+.site-part--blue {
+	background-color: #70bfff;
+}
+.site-part--turkus {
+	background-color: #00bdbd;
+}
+
+
+.site-part__grid{
+	display: grid;
+	max-width: 1500px;
+	margin: 0 auto;	
+	grid-template-columns: 50% 50%;
+	padding-left: 165px;
+	padding-right: 165px;
+	box-sizing: border-box;
+}
+.site-part__block-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* END -------------------BLOCK .site-part	- container for other blocks*/
+
+/* BLOCK .services	- list of services with img icon*/
+.services{
+	display: block;
+}
+.services__item{
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 25px;
+	display: flex;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5);
+
+}
+.services__item-name{
+	width: 300px;
+	border-right: 1px solid #9d9d9d;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(38, 38, 38);
+}
+
+.services__item-icon{
+	width: 99px;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+}
+.services__item-icon img{
+	vertical-align: middle;
+}
+/* END -------------------BLOCK .services	- list of services with img icon*/
+
+/* BLOCK .txtoverimg - Text over an Image */
+.txtoverimg{
+	background: url(../img/tomatos-parts.png) center/ contain no-repeat content-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+
+}
+.txtoverimg__h2{
+	font-size: 90px;
+	font-weight: 700;
+	color: white;
+	display: block;
+}
+/* END -------------------BLOCK .txtoverimg - Text over an Image */
+
+

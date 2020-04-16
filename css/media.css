@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 1300px) {
+/*	.container {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.nav-fixed {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.about-us__width {
+		max-width: 35vw;
+	}*/
+}
+@media only screen and (max-width: 1000px) {
+/*	.container__h2 {
+		font-size: 70px;
+	}
+	.about-us {
+		min-height: 500px;
+	}*/
+	.site-part{
+		display: grid;
+		max-width: 1500px;
+		margin: 0 auto;	
+		grid-template-columns: 50% 50%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.container__h2 {
+		font-size: 50px;
+	}
+	.about-us {
+		min-height: 400px;
+	}
+	.about-us__text {
+		font-size: 15px;
+	}
+	/*	nav: ;*/
+}
