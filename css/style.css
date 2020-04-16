@@ -1,11 +1,17 @@
-.container {
-	color: #262626;
+body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 20px;
-	line-height: 1.5;
+	color: rgb(38, 38, 38);
+}
+button{
+	cursor: pointer;
+}
+
+.cointainer{
+	max-width: 1172px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 
@@ -32,11 +38,34 @@
 	background-position: center;
 	background-size: cover;
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
+.home__h1{
+	padding-top: 20%;
+	font-size: 60px;
+	font-weight: 900;
+	font-family: "Raleway";
+	padding-bottom: 20px;
+}
+.home__p{
+	font-size: 17px;
+	max-width: 370px;
+	line-height: 1.4;
+	font-weight: 300;
+	padding-bottom: 20px;	  
+}
+
+.home__button{
+	background-color: #FF6033;
+	height: 55px;
+	width: 200px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	border: 0;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+  
 .container__button{
 	font-size: 20px;
 	color: #fff;
@@ -89,17 +118,21 @@
 }
 .nav-fixed__flex{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	margin: 0 auto;
 }
-
+.nav-fixed__ul{
+	display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 560px;
+}
 .nav-fixed__li{
 	display: inline;
 }
 .nav-fixed__a{
 	display: block;
+	box-sizing: border-box;
 	float: left;
 	text-decoration: none;
 	color: #262626;
@@ -107,7 +140,14 @@
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-left: 35px;
+	height: 25px;
+	border-top: transparent solid 3px;
+	padding-top: 9px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.nav-fixed__a:hover{
+	border-top: #ff6033 solid 3px;
 }
 .nav-fixed__logo {
 	font-family: Pacifico;
@@ -147,13 +187,7 @@
 	padding-bottom: 100px;
 	box-sizing: border-box;
 }
-.site-part--home {
-	background-repeat: no-repeat;
-	background-image: url(../img/truskawka-w-jogurcie.jpg);
-	background-position: center;
-	background-size: cover;
-	min-height: 100vh;
-}
+
 .site-part--blue {
 	background-color: #70bfff;
 }
