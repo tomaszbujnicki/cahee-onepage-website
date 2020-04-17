@@ -3,6 +3,16 @@
 	.nav-fixed__ul{
 		flex-direction: column;
 		align-items: flex-end;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.about-us__text {
+		padding-top: 10%;
+	}
+	.about-us__h2{
+		font-size: 60px;
+	}
 }
 
 /* 	
@@ -36,3 +46,11 @@
 	} */
 	/*	nav: ;*/
 }
+
+
+/*
+@media (orientation: portrait){
+	.home {
+		background-image: url(../img/truskawka-w-jogurcie-mobile.png);
+	}
+}*/
