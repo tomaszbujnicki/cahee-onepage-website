@@ -5,6 +5,7 @@ body {
 }
 button{
 	cursor: pointer;
+	font-family: Raleway;
 }
 
 .container{
@@ -95,7 +96,6 @@ button{
 	box-sizing: border-box;
 
 }
-
 .home__container{
 	max-width: 1172px;
 	margin: 0 auto;
@@ -104,10 +104,9 @@ button{
 	padding-top: 25%;
 	padding-bottom: 40px;
 }
-
 .home__h1{
 	font-size: 60px;
-	font-weight: 900;
+	font-weight: 800;
 	font-family: "Raleway";
 	padding-bottom: 20px;
 }
@@ -118,7 +117,6 @@ button{
 	font-weight: 300;
 	padding-bottom: 20px;	  
 }
-
 .home__button{
 	background-color: #FF6033;
 	height: 55px;
@@ -134,7 +132,6 @@ button{
 .about-us{
 	background-color: #00bdbd;
 }
-
 .about-us__container{
 	max-width: 1172px;
 	margin: 0 auto;
@@ -145,7 +142,6 @@ button{
 .about-us__img {
 	width: 100%;
 	margin: auto;
-	/* background-image: url(../img/plate-of-berriers.png); */
 }
 .about-us__text {
 	color: white;
@@ -165,16 +161,25 @@ button{
 	hyphens: auto;
 	line-height: 1.4;
 }
-  
 
 
-
-
-
-/* BLOCK .services	- list of services with img icon*/
 .services{
-	display: block;
+	background: #70BFFF;
 }
+
+.services__container{
+	max-width: 1172px;
+	min-height: 700px;
+	margin: 0 auto;
+	padding: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.services__list{
+	margin: auto;
+}
+
 .services__item{
 	width: 400px;
 	height: 100px;
@@ -207,25 +212,230 @@ button{
 .services__item-icon img{
 	vertical-align: middle;
 }
-/* END -------------------BLOCK .services	- list of services with img icon*/
 
-/* BLOCK .txtoverimg - Text over an Image */
-.txtoverimg{
-	background: url(../img/tomatos-parts.png) center/ contain no-repeat content-box;
+.services__img{
+	background: url(../img/tomatos-parts.png) center/ 80% no-repeat content-box;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	width: 100%;
-	height: 100%;
-
 }
-.txtoverimg__h2{
+.services__h2{
 	font-size: 90px;
 	font-weight: 700;
 	color: white;
-	display: block;
+	text-align: center;
 }
-/* END -------------------BLOCK .txtoverimg - Text over an Image */
 
 
+.gallery{
+	background: #FFE92F;
+}
+.gallery__container{
+	max-width: 1172px;
+	min-height: 800px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.gallery__h2{
+	color:#262626;
+	font-size:90px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 50px;
+}
+.gallery__p{
+	color:#262626;
+	font-size: 17px;
+	font-weight: 300;
+	text-align: center;
+	max-width: 577px;
+	margin: 50px auto ;
+	line-height: 1.4;
+}
+.gallery__images{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px
+}
+.gallery__img-1{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.gallery__img-2{
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery__img-3{
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	align-self: end;
+}
+.gallery__img-4{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+.gallery__img-5{
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 5;
+	grid-row-end: 8;
+}
+.gallery__images img{
+	width: 100%;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5);
+}
+.gallery__button{
+	background-color: #5585A2;
+	height: 55px;
+	width: 200px;
+	border: none;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 40px auto;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+
+.subscribe{
+	background: url(../img/subscribeBG.png) center/ 100% no-repeat content-box;
+	height: 500px;
+}
+.subscribe__container{
+	max-width: 1172px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.subscribe__h2{
+	color:#262626;
+	font-size:40px;
+	font-weight: 700;
+}
+.subscribe__p{
+	color:#262626;
+	font-size:17px;
+	font-weight: 300;
+	line-height: 1.4;
+	max-width: 544px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.subscribe__text{
+	font-weight: 300;
+	font-size: 15px;
+	height: 55px;
+	width: 570px;
+	padding-left: 15px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(38, 38, 38);
+	color: rgb(38, 38, 38);
+	font-family: Raleway;
+}
+.subscribe__button{
+	font-size: 20px;
+	color: white;
+	font-weight: 300;
+	background-color: rgb(150, 185, 44);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	width: 170px;
+	height: 55px;
+	border: none;
+	font-family: Raleway;
+	box-sizing: border-box;
+}
+
+.blog{
+	background-color: #B07CF7;
+}
+
+.blog__container{
+	max-width: 1172px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.blog__h2{
+	font-size: 90px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+.blog__p{
+	font-size: 17px;
+	font-weight: 300;
+	margin: 30px auto;
+	hyphens: auto;
+	line-height: 1.4;
+	width: 563px;
+	color: white;
+	text-align: center;
+}
+.blog__button{
+	background-color: #F72B3B;
+	height: 55px;
+	width: 200px;
+	border: none;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 40px auto;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+.blog__images{
+	display: flex;
+	justify-content: space-between;
+}
+.blog__image{
+	width: 372px;
+	height: 312px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.blog__image-1{
+	background: url(../img/blog-1.png) center no-repeat content-box;
+}
+.blog__image-2{
+	background: url(../img/blog-2.png) bottom no-repeat content-box;
+}
+.blog__image-3{
+	background: url(../img/blog-3.png) center no-repeat content-box;
+}
+.blog__date{
+	width: 60px;
+	height: 60px;
+	background-color:rgba(38, 38, 38, 0.5);
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.blog__day{
+    font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: white;
+}
+.blog__month{
+    font-family: 'Raleway', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: white;
+}

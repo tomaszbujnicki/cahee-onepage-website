@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cahee - onepage website</title>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,800,900&amp;subset=latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -39,7 +39,7 @@
 
 	<section id="about" class="about-us">
 		<div class="about-us__container">			
-				<img class="about-us__img" src="img/plate-of-berriers.png" alt="" srcset="">
+				<img class="about-us__img" src="img/plate-of-berriers3.png" alt="" srcset="">
 			<div class="about-us__text">
 				<h2 class="about-us__h2">About Us</h2>
 				<p class="about-us__p">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -48,10 +48,10 @@
 		</div>
 	</section>
 
-	<section id="services" class="site-part site-part--blue">
-		<div class="site-part__grid">
-			<div class="site-part__block-center">
-				<div class="services__services-list">
+	<section id="services" class="services">
+		<div class="services__container">
+			
+				<div class="services__list">
 					<div class="services__item">
 						<div class="services__item-name">
 							<span>Online Shopping</span>
@@ -77,46 +77,66 @@
 						<div class="services__item-icon"><img src="img/icon-carrot.png" alt=""></div>
 					</div>
 				</div>
-			</div>
-			<div class="site-part__block-center">
-				<div class="txtoverimg">
-					<h2 class="txtoverimg__h2">Our Services</h2>
+			
+			
+				<div class="services__img">
+					<h2 class="services__h2">Our Services</h2>
 				</div>
+			
+		</div>
+	</section>
+
+
+	<section id="gallery" class="gallery">
+
+		<div class="gallery__container">
+			<h2 class="gallery__h2">Gallery</h2>
+			<p class="gallery__p">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+				aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			<div class="gallery__images">
+				<img class="gallery__img-1" src="img/1a.png" alt="">
+				<img class="gallery__img-2" src="img/2a.png" alt="">
+				<img class="gallery__img-3" src="img/3a.png" alt="">
+				<img class="gallery__img-4" src="img/4a.png" alt="">
+				<img class="gallery__img-5" src="img/5a.png" alt="">
 			</div>
+
+			<button class="gallery__button">VIEW MORE</button>
 		</div>
 	</section>
-	<section id="gallery" class="site-part">
-		<span>Gallery</span>
-		<div class="">
-			<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	
+	<section id="subscribe" class="subscribe">
+		<div class="subscribe__container">
+			<h2 class="subscribe__h2">Subscribe To Us</h2>
+			<p class="subscribe__p">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			<form action="">
+				<input class="subscribe__text" type="text" name="email" placeholder="Your email address...">
+				<input class="subscribe__button" type="button" value="SUBSCRIBE">
+			</form>
 		</div>
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<button value="VIEW MORE"></button>
 	</section>
-	<section id="subscribe" class="site-part">
-		<h3>Subscribe To Us</h3>
-		<div class="">
-			<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+	
+	<section id="blog" class="blog">
+		<div class="blog__container">
+			<h2 class="blog__h2">Blog</h2>
+			<p class="blog__p">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+				ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+			<div class="blog__images">
+				<div class="blog__image blog__image-1">
+					<div class="blog__date">
+						<span class="blog__day">20</span>
+						<span class="blog__month">NOV</span>
+					</div>
+				</div>
+				<div class="blog__image blog__image-2"></div>
+				<div class="blog__image blog__image-3"></div>
+			</div>
+			<button class="blog__button">VIEW MORE</button>
 		</div>
-		<form action="">
-			<input type="text">
-			<input type="button">
-		</form>
 	</section>
-	<section id="blog" class="site-part">
-		<h2>Blog</h2>
-		<div class="">
-			<p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-		</div>
-		<div class=""></div>
-		<div class=""></div>
-		<div class=""></div>
-		<button value="VIEW MORE"></button>
-	</section>
+	<!-- 
 	<section id="contact" class="site-part">
 		<h2>Contact</h2>
 		<div class="">
@@ -133,7 +153,7 @@
 		<span></span>
 		<img src="" alt="">
 		<a href=""></a>
-	</div>
+	</div> -->
 	<script>
 		$(window).scroll(function() {
 			var top = $(window).scrollTop();

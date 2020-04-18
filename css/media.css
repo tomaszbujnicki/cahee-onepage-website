@@ -13,44 +13,31 @@
 	.about-us__h2{
 		font-size: 60px;
 	}
-}
 
-/* 	
-	.about-us__width {
-		max-width: 35vw;
-	} */
-}
-@media only screen and (max-width: 1000px) {
-/*	.container__h2 {
-		font-size: 70px;
+	.services__container{
+		grid-template-columns: 1fr;
 	}
-	.about-us {
-		min-height: 500px;
-	}*/
-/* 	.site-part{
-		display: grid;
-		max-width: 1500px;
-		margin: 0 auto;	
-		grid-template-columns: 50% 50%;
-	} */
-}
-@media only screen and (max-width: 800px) {
-/* 	.container__h2 {
-		font-size: 50px;
-	}
-	.about-us {
+	.services__img{
+		order: -1;
 		min-height: 400px;
+		background-size: auto 100%;
 	}
-	.about-us__text {
-		font-size: 15px;
-	} */
-	/*	nav: ;*/
+	.services__list{
+		margin: auto;
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.subscribe{
+		background: url(../img/subscribeBG.png) center bottom/ 100% no-repeat content-box;
+		height: 400px;
+	}
+	.subscribe__text{
+		max-width: 60%;
+	}
+	.subscribe__p{
+		max-width: 60%;
+	}
+	.subscribe__button{
+		margin-right: 200px;
+	}
 }
-
-
-/*
-@media (orientation: portrait){
-	.home {
-		background-image: url(../img/truskawka-w-jogurcie-mobile.png);
-	}
-}*/
