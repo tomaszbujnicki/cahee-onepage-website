@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
@@ -168,24 +169,59 @@
 	</section>
 	
 	<section id="contact" class="contact">
-		<h2 class="contact__h2">Contact</h2>
-		<p class="contact__p">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+		<div class="contact__container">
+			<h2 class="contact__h2">Contact</h2>
+			<p class="contact__p">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
 
-		<div class="contact__flex">
-			<form class="contact__form" action="">
-			</form>
-			<div class="contact__address">
+			<div class="contact__split">
+				<form action="" method="post">
+					<ul>
+					 <li>
+					    <input class="contact__input" type="text" id="name" name="name"  required placeholder="Your name...">
+					 </li>
+					 <li>
+					    <input class="contact__input" type="email" id="email" name="email"  required placeholder="Your email...">
+					 <li>
+						<input class="contact__input" type="tel" id="phone" name="phone" placeholder="Your phone number...">
+						<li>
+					   <textarea class="contact__input contact__input--textarea" id="message" name="message"  required placeholder="Your messge..."></textarea>
+					 </li>
+					</ul>
+				</form>
+				<address class="contact__address">
+					<span class="contact__bold">ADDRESS</span>
+					123 City name, Street, City, Country<br><br>
+					<span class="contact__bold">EMAIL</span>
+					cahee@domain.com<br><br>
+					<span class="contact__bold">PHONE</span>
+					+012 345 6789
+				</address>
 			</div>
 		</div>
-		
+
 	</section>
 	
-	<!-- 
+<!-------------------------------------------
 	<footer id="footer" class="footer">
 		<span></span>
 		<img src="" alt="">
 		<a href=""></a>
-	</footer> -->
+	</footer>
+-------------------------------------------->
+
+		<script>
+		$(window).scroll(function() {
+			var top = $(window).scrollTop();
+			if (top > 200) {
+				$('.nav-fixed').addClass('nav-fixed--smaller');
+				$('#scroll').hide();
+			} else {
+				$('.nav-fixed').removeClass('nav-fixed--smaller');
+				$('#scroll').show();
+			}
+		});
+
+	</script>
 
 </body>
 
