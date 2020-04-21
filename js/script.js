@@ -8,3 +8,5 @@ $(window).scroll(function () {
         $('#scroll').show();
     }
 });
+
+lightGallery(document.getElementById('lightgallery')); 

@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
@@ -102,12 +103,22 @@
 				magna
 				aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
-			<div class="gallery__images">
-				<img class="gallery__img-1" src="img/1a.png" alt="">
-				<img class="gallery__img-2" src="img/2a.png" alt="">
-				<img class="gallery__img-3" src="img/3a.png" alt="">
-				<img class="gallery__img-4" src="img/4a.png" alt="">
-				<img class="gallery__img-5" src="img/5a.png" alt="">
+			<div class="gallery__images" id="lightgallery">
+				<a class="gallery__img-1" href="img/1a.png">
+				<img  src="img/1a.png" alt="">
+				</a>
+				<a class="gallery__img-2" href="img/2a.png">
+				<img src="img/2a.png" alt="">
+			</a>
+				<a class="gallery__img-3" href="img/3a.png">
+				<img src="img/3a.png" alt="">
+			</a>
+				<a class="gallery__img-4" href="img/4a.png">
+				<img  src="img/4a.png" alt="">
+			</a>
+				<a  class="gallery__img-5" href="img/5a.png">
+				<img src="img/5a.png" alt="">
+			</a>
 			</div>
 
 			<button class="gallery__button">VIEW MORE</button>
@@ -225,6 +236,7 @@
 		</div>
 	</footer>
 
+	<script src="js/lightgallery.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
