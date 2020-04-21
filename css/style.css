@@ -1,3 +1,14 @@
+:focus{
+	outline: none;
+}
+button:focus, 
+button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover{
+	background-color: white;
+	border: 2px solid #FF6033;
+	color: #FF6033;
+}
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
@@ -52,8 +63,8 @@ button{
 	padding-top: 9px;
 	padding-left: 2px;
 	padding-right: 2px;
-}
-.nav-fixed__a:hover{
+}	
+.nav-fixed__a:hover,.nav-fixed__a:focus{
 	border-top: #ff6033 solid 3px;
 }
 .nav-fixed__logo {
@@ -350,6 +361,12 @@ button{
 	color: rgb(38, 38, 38);
 	font-family: Raleway;
 }
+.subscribe__text:hover,
+.subscribe__text:focus{
+	border-color: #FF6033;
+	border-width: 2px;
+	padding-left: 14px;
+}
 .subscribe__button{
 	font-size: 20px;
 	color: white;
@@ -464,6 +481,11 @@ button{
 	color: white;
 	font-weight: 700;
 	text-decoration: none;
+}
+.blog__a:hover,
+.blog__a:focus{
+	color: #FF6033;
+	text-decoration: underline;
 }
 .blog__a:hover{
 	text-decoration: underline;
@@ -584,6 +606,8 @@ button{
 	font-weight: 700;
 	text-decoration: none;
 }
-.footer a:hover{
-	color: rgb(0, 196, 196)
+.footer a:hover,
+.footer a:focus{
+	color: rgb(0, 196, 196);
+	text-decoration: underline;
 }
