@@ -1,14 +1,12 @@
 :focus{
 	outline: none;
 }
-button:focus, 
-button:hover,
-input[type="button"]:focus,
-input[type="button"]:hover{
-	background-color: white;
-	border: 2px solid #FF6033;
-	color: #FF6033;
-}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+  }
+  
+  
 body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
@@ -66,6 +64,7 @@ button{
 }	
 .nav-fixed__a:hover,.nav-fixed__a:focus{
 	border-top: #ff6033 solid 3px;
+	transition: 1s;
 }
 .nav-fixed__logo {
 	font-family: Pacifico;
@@ -136,6 +135,13 @@ button{
 	color: #fff;
 	border: 0;
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.home__button:focus, 
+.home__button:hover{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #FF6033;
+	color: #FF6033;
+	transition: background 1s;
 }
 
 
@@ -268,6 +274,16 @@ button{
 	grid-template-columns: repeat(6, 1fr);
 	gap: 20px
 }
+.gallery a{
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.gallery a:focus,
+.gallery a:hover{
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
 .gallery__img-1{
 	grid-column-start: 1;
 	grid-column-end: 5;
@@ -301,7 +317,9 @@ button{
 }
 .gallery__images img{
 	width: 100%;
-	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5);
+	height: 100%;
+	object-fit:cover;
+	/* box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5); */
 }
 .gallery__button{
 	background-color: #5585A2;
@@ -314,6 +332,13 @@ button{
 	font-size: 20px;
 	font-weight: 300;
 	color: #fff;
+}
+.gallery__button:focus, 
+.gallery__button:hover{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #5585A2;
+	color: #5585A2;
+	transition: background 1s;
 }
 
 
@@ -371,7 +396,7 @@ button{
 	font-size: 20px;
 	color: white;
 	font-weight: 300;
-	background-color: rgb(150, 185, 44);
+	background-color: #96b92c;
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 	width: 170px;
 	height: 55px;
@@ -379,6 +404,13 @@ button{
 	font-family: Raleway;
 	box-sizing: border-box;
 	cursor: pointer;
+}
+.subscribe__button:focus, 
+.subscribe__button:hover{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #96b92c;
+	color: #96b92c;
+	transition: background 1s;
 }
 
 .blog{
@@ -418,6 +450,13 @@ button{
 	font-size: 20px;
 	font-weight: 300;
 	color: #fff;
+}
+.blog__button:focus, 
+.blog__button:hover{
+	background-color: rgba(0,0,0,0);
+	border: 2px solid #F72B3B;
+	color: #F72B3B;
+	transition: background 1s;
 }
 .blog__images{
 	display: flex;
