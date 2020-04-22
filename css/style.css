@@ -459,11 +459,11 @@ button{
 	transition: background 1s;
 }
 .blog__images{
-	display: flex;
-	justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
 }
 .blog__image{
-	width: 372px;
 	height: 312px;
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 	position: relative;
