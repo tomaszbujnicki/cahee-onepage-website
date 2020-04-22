@@ -113,12 +113,7 @@ button{
 	padding-top: 25%;
 	padding-bottom: 40px;
 }
-.home__h1{
-	font-size: 60px;
-	font-weight: 800;
-	font-family: "Raleway";
-	padding-bottom: 20px;
-}
+
 .home__p{
 	font-size: 17px;
 	max-width: 370px;
@@ -165,11 +160,7 @@ button{
 	padding-left: 40px;
 	padding-top: 20%;
 }
-.about-us__h2{
-	font-size: 90px;
-	font-weight: 700;
-	padding-bottom: 20px;
-}
+
 .about-us__p {
 	font-size: 17px;
 	font-weight: 300;
@@ -236,31 +227,16 @@ button{
 	align-items: center;
 	box-sizing: border-box;
 }
-.services__h2{
-	font-size: 90px;
-	font-weight: 700;
-	color: white;
-	text-align: center;
-}
 
 
-.gallery{
-	background: #FFE92F;
-}
-.gallery__container{
-	max-width: 1172px;
+
+/* .gallery{
+
 	min-height: 800px;
-	margin: 0 auto;
-	padding: 40px;
-}
-.gallery__h2{
-	color:#262626;
-	font-size:90px;
-	font-weight: 700;
-	text-align: center;
-	margin-top: 50px;
-}
-.gallery__p{
+} */
+
+
+/* .gallery__p{
 	color:#262626;
 	font-size: 17px;
 	font-weight: 300;
@@ -268,78 +244,8 @@ button{
 	max-width: 577px;
 	margin: 50px auto ;
 	line-height: 1.4;
-}
-.gallery__images{
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	gap: 20px
-}
-.gallery a{
-	box-sizing: border-box;
-	position: relative;
-	width: 100%;
-	height: 100%;
-}
-.gallery a:focus,
-.gallery a:hover{
-	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
-}
-.gallery__img-1{
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 5;
-}
-.gallery__img-2{
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 1;
-	grid-row-end: 3;
-}
-.gallery__img-3{
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 3;
-	grid-row-end: 5;
-	align-self: end;
-}
-.gallery__img-4{
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 5;
-	grid-row-end: 8;
-}
-.gallery__img-5{
-	grid-column-start: 4;
-	grid-column-end: 7;
-	grid-row-start: 5;
-	grid-row-end: 8;
-}
-.gallery__images img{
-	width: 100%;
-	height: 100%;
-	object-fit:cover;
-	/* box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5); */
-}
-.gallery__button{
-	background-color: #5585A2;
-	height: 55px;
-	width: 200px;
-	border: none;
-	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-	display: block;
-	margin: 40px auto;
-	font-size: 20px;
-	font-weight: 300;
-	color: #fff;
-}
-.gallery__button:focus, 
-.gallery__button:hover{
-	background-color: rgba(0,0,0,0);
-	border: 2px solid #5585A2;
-	color: #5585A2;
-	transition: background 1s;
-}
+} */
+
 
 
 .subscribe{
@@ -357,11 +263,7 @@ button{
 	flex-direction: column;
 	justify-content: center;
 }
-.subscribe__h2{
-	color:#262626;
-	font-size:40px;
-	font-weight: 700;
-}
+
 .subscribe__p{
 	color:#262626;
 	font-size:17px;
@@ -423,12 +325,7 @@ button{
 	padding: 40px;
 	padding-top: 100px;
 }
-.blog__h2{
-	font-size: 90px;
-	font-weight: 700;
-	color: white;
-	text-align: center;
-}
+
 .blog__p{
 	font-size: 17px;
 	font-weight: 300;
@@ -548,13 +445,7 @@ button{
 	padding: 40px;
 	padding-bottom: 100px;
 }
-.contact__h2{
-	color:#262626;
-	font-size:90px;
-	font-weight: 700;
-	text-align: center;
-	margin-top: 50px;
-}
+
 .contact__p{
 	color:#262626;
 	font-size: 17px;

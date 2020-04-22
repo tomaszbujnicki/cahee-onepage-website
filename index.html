@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<title>Cahee - onepage website</title>
 	<link rel="shortcut icon" href="favicon.ico" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,800,900&amp;subset=latin-ext"
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700,800,900&amp;subset=latin-ext"
 		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bem.css">
 	<link rel="stylesheet" href="css/media.css">
-	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
@@ -95,33 +96,33 @@
 	</section>
 
 
-	<section id="gallery" class="gallery">
+	<section id="gallery" class="section section--yellow">
 
-		<div class="gallery__container">
-			<h2 class="gallery__h2">Gallery</h2>
-			<p class="gallery__p">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna
-				aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
-			<div class="gallery__images" id="lightgallery">
-				<a class="gallery__img-1" href="img/1a.png">
-				<img  src="img/1a.png" alt="">
+		<div class="section__container">
+			<h2 class="title section__heading">Gallery</h2>
+			<p class="paragraph section__text">
+				Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<div class="gallery section__item" id="lightgallery">
+				<a class="gallery__item gallery__img-1" href="img/1a.png">
+					<img class="gallery__img" src="img/1a.png" alt="">
 				</a>
-				<a class="gallery__img-2" href="img/2a.png">
-				<img src="img/2a.png" alt="">
-			</a>
-				<a class="gallery__img-3" href="img/3a.png">
-				<img src="img/3a.png" alt="">
-			</a>
-				<a class="gallery__img-4" href="img/4a.png">
-				<img  src="img/4a.png" alt="">
-			</a>
-				<a  class="gallery__img-5" href="img/5a.png">
-				<img src="img/5a.png" alt="">
-			</a>
+				<a class="gallery__item gallery__img-2" href="img/2a.png">
+					<img class="gallery__img" src="img/2a.png" alt="">
+				</a>
+				<a class="gallery__item gallery__img-3" href="img/3a.png">
+					<img class="gallery__img" src="img/3a.png" alt="">
+				</a>
+				<a class="gallery__item gallery__img-4" href="img/4a.png">
+					<img class="gallery__img" src="img/4a.png" alt="">
+				</a>
+				<a class="gallery__item gallery__img-5" href="img/5a.png">
+					<img class="gallery__img" src="img/5a.png" alt="">
+				</a>
 			</div>
 
-			<button class="gallery__button">VIEW MORE</button>
+			<button class="button section__item section__last">VIEW MORE</button>
 		</div>
 	</section>
 
