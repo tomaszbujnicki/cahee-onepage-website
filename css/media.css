@@ -52,4 +52,7 @@
 		width: 100%;
 		max-width: 500px;
 	}
+	.contact__address{
+		margin-bottom: 40px;
+	}
 }
