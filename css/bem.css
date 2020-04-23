@@ -1,27 +1,75 @@
 .section {
     background-color: #FFFFFF;
 }
+
 .section--yellow {
     background-color: #FFE92F;
 }
-.section__container {
+
+.section--cyan {
+    background-color: #00bdbd;
+}
+.section--sky{
+	background: #70BFFF;
+}
+
+.container {
     max-width: 1172px;
-    margin: 0 auto;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.double {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section__heading{
+
+.column--to-center {
+    justify-content: center;
+}
+.column--to-left{
+    align-items: flex-start;
+}
+.column--to--right{
+    align-items: flex-end;
+}
+.column__margin-left{
+    margin-left: 85px;
+}
+.column__margin-right{
+    margin-right: 85px;
+}
+
+
+.column__first {
     margin-top: 100px;
 }
-.section__text{
+.column__paragraph {
+    margin-top: 10px;
+}
+.column__article {
     margin-top: 30px;
 }
-.section__item{
+.column__item {
     margin-top: 45px;
 }
-.section__last{
+.column__last {
     margin-bottom: 120px
+}
+
+
+
+.container__flex {
+    color: white;
+    max-width: 500px;
+    padding-left: 40px;
+    padding-top: 20%;
 }
 
 .title {
@@ -30,8 +78,15 @@
     font-size: 90px;
     font-weight: 700;
 }
+
 .title--white {
     color: white;
+}
+.title--left {
+    text-align: left;
+}
+.title--right {
+    text-align: right;
 }
 
 .paragraph {
@@ -43,106 +98,116 @@
     max-width: 577px;
     text-align: center;
 }
+
 .paragraph--white {
     color: white;
 }
 
-.button{
-	background-color: #5585A2;
-	height: 55px;
-	width: 200px;
-	border: none;
-	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+.paragraph--left {
+    text-align: left;
+}
+
+.button {
+    background-color: #5585A2;
+    height: 55px;
+    width: 200px;
+    border: none;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     display: block;
     color: #fff;
     font-family: "Raleway";
-	font-size: 20px;
+    font-size: 20px;
     font-weight: 300;
     cursor: pointer;
     transition: background 1s;
 }
+
 .button:hover,
-.button:focus{
+.button:focus {
     outline: none;
     font-weight: 400;
-    background-color: rgba(0,0,0,0);
-	border: 2px solid #5585A2;
-	color: #5585A2;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #5585A2;
+    color: #5585A2;
     transition: background 1s;
-    
 }
+
 .button::-moz-focus-inner {
-	border: 0;
-  }
-
-
-.gallery{
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-    gap: 20px
+    border: 0;
 }
-.gallery__item{
-	box-sizing: border-box;
-	position: relative;
-	width: 100%;
-	height: 100%;
+
+.image {
+    width: 100%;
+    transform: scale(1.15);
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    grid-template-areas:
+        "big      big      big      big      small-1  small-1"
+        "big      big      big      big      small-1  small-1"
+        "big      big      big      big      small-2  small-2"
+        "big      big      big      big      small-2  small-2"
+        "medium-1 medium-1 medium-1 medium-2 medium-2 medium-2"
+        "medium-1 medium-1 medium-1 medium-2 medium-2 medium-2"
+        "medium-1 medium-1 medium-1 medium-2 medium-2 medium-2"
+}
+
+.gallery__item {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .gallery__item:focus,
-.gallery__item:hover{
-	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
-}
-.gallery__img-1{
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: 5;
-}
-.gallery__img-2{
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 1;
-	grid-row-end: 3;
-}
-.gallery__img-3{
-	grid-column-start: 5;
-	grid-column-end: 7;
-	grid-row-start: 3;
-	grid-row-end: 5;
-	align-self: end;
-}
-.gallery__img-4{
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-row-start: 5;
-	grid-row-end: 8;
-}
-.gallery__img-5{
-	grid-column-start: 4;
-	grid-column-end: 7;
-	grid-row-start: 5;
-	grid-row-end: 8;
-}
-.gallery__img{
-	width: 100%;
-	height: 100%;
-	object-fit:cover;
-	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5);
+.gallery__item:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.gallery__button:focus, 
-.gallery__button:hover{
-	background-color: rgba(0,0,0,0);
-	border: 2px solid #5585A2;
-	color: #5585A2;
-	transition: background 1s;
+.gallery__item-1 {
+    grid-area: big;
 }
 
-
-.about-us__h2 {
-    font-size: 90px;
-    font-weight: 700;
-    padding-bottom: 20px;
+.gallery__item-2 {
+    grid-area: small-1;
 }
+
+.gallery__item-3 {
+    grid-area: small-2;
+}
+
+.gallery__item-4 {
+    grid-area: medium-1;
+}
+
+.gallery__item-5 {
+    grid-area: medium-2;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bg-image{
+    background-image: url(../img/tomatos-parts.png);
+    background-repeat: no-repeat;
+	background-position: right;
+    background-size: contain;
+    background-origin: content-box;
+}
+/* min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box; */
+
+
 
 .services__h2 {
     font-size: 90px;
