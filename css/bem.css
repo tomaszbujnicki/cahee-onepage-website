@@ -45,13 +45,14 @@
 .column__margin-right{
     margin-right: 85px;
 }
-
-
 .column__first {
     margin-top: 100px;
 }
 .column__paragraph {
     margin-top: 10px;
+}
+.column__list-item{
+    margin-top:20px;
 }
 .column__article {
     margin-top: 30px;
@@ -70,6 +71,9 @@
     max-width: 500px;
     padding-left: 40px;
     padding-top: 20%;
+}
+.article{
+    
 }
 
 .title {
@@ -198,23 +202,51 @@
     background-image: url(../img/tomatos-parts.png);
     background-repeat: no-repeat;
 	background-position: right;
-    background-size: contain;
+    background-size: 90%;
     background-origin: content-box;
 }
-/* min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-box-sizing: border-box; */
 
+.services__item{
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	display: flex;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.5);
 
-
-.services__h2 {
-    font-size: 90px;
-    font-weight: 700;
-    color: white;
-    text-align: center;
 }
+.services__item-name{
+	width: 300px;
+	border-right: 1px solid #9d9d9d;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(38, 38, 38);
+}
+
+.services__item-icon{
+	width: 99px;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+}
+.services__item-icon img{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
 
 .gallery__h2 {
     color: #262626;
