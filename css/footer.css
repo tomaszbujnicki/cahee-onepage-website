@@ -1,0 +1,32 @@
+.footer{
+	color: #B9B9B9;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__code{
+	font-size: 16px;
+}
+.footer__small-logo{
+	font-size: 25px;
+	font-family: Pacifico;
+	font-style: italic;
+
+}
+.footer__design{
+	font-size: 15px;
+}
+.footer__love{
+	color: #ff2200;
+	font-weight: 800;
+}
+.footer a, .footer a:visited{
+	color: #B9B9B9;
+	font-weight: 700;
+	text-decoration: none;
+}
+.footer a:hover,
+.footer a:focus{
+	color: rgb(0, 196, 196);
+	text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+.t-strawberry{
+    background-color: white; 
+    background-image: url(../img/truskawka-w-jogurcie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #262626;
+}
+
+.t-cyan{
+    background-color: #00bdbd;
+    color: #FFFFFF;
+}
+
+.t-sky{
+    background: #70BFFF;
+    color: #FFFFFF;
+}
+
+.t-sun {
+    background-color: #FFE92F;
+    color: #262626;
+}
+
+.t-blueberry{
+    background-color: white; 
+    background-image: url(../img/subscribeBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #262626;
+    /* background: url(../img/subscribeBG.png) center/ 100% no-repeat content-box; */
+}
+
+.t-purple{
+    background-color: #B07CF7;
+    color: #FFFFFF;
+}
+
+.t-blur{
+    background-color: white;
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #262626;
+}
+
+.t-dark{
+    background-color: #262626;
+    color: #B9B9B9;
+}
+

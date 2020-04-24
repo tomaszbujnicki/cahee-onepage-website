@@ -11,6 +11,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bem.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/wrapper.css">
+	<link rel="stylesheet" href="css/article.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,223 +21,85 @@
 </head>
 
 <body>
-	<nav class="nav-fixed">
-		<div class="nav-fixed__flex container">
-			<span class="nav-fixed__logo">Cahee</span>
-			<ul class="nav-fixed__ul">
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#home">home</a></li>
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#about">about</a></li>
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#services">services</a></li>
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#gallery">gallery</a></li>
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#blog">blog</a></li>
-				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#contact">contact</a></li>
-			</ul>
-			<img id="scroll" src="img/scroll.png" alt="" class="scroll-fixed">
-		</div>
-	</nav>
+	<header class="">
+		<div class="wrapper">
+			<div class="wrapper__bar">
+				<div class="logo">
 
-	<section id="home" class="home">
-		<div class="home__container">
-			<h1 class="home__h1">Fresh Life</h1>
-			<p class="home__p">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco.</p>
-			<button class="home__button">GET FREE NOW</button>
-		</div>
-	</section>
-
-	<section id="about" class="column section--cyan">
-		<div class="double container column__first column__last">
-			<img class="image" src="img/plate-of-berriers3.png" alt="">
-			<div class="column column--to-left column--to-center ">
-				<h2 class="title title--white column__margin-left">About Us</h2>
-				<p class="paragraph paragraph--white paragraph--left column__article column__margin-left">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-					voluptate velit esse cillum.</p>
-				<p class="paragraph paragraph--white paragraph--left column__paragraph column__margin-left">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-					voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<section id="services" class="column section--sky">
-		<div class="double container column__first column__last">
-
-			<div class="column column--to-center column__first column__margin-right">
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Online Shopping</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-cart.png" alt=""></div>
-					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Quality Product</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-quality.png" alt=""></div>
-					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Domestic &amp; International Delivery</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-international.png" alt=""></div>
-					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Well Organized</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-carrot.png" alt=""></div>
-					</div>
 				</div>
 
-			<div class="column column--to-right column--to-center bg-image">
-				<h2 class="title title--white">Our Services</h2>
+				<nav>
+
+				</nav>
+				
 			</div>
+		</div>
+	</header>
 
+	<section id="home" class="t-strawberry">
+		<div class="wrapper">
+			<article class="wrapper__group">
+				<h1 class="">Fresh Life</h1>
+				<p class="">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+					veniam, quis nostrud exercitation ullamco.</p>
+				<button class="">GET FREE NOW</button>
+			</article>
 		</div>
 	</section>
 
-
-	<section id="gallery" class="column section--yellow">
-
-		<div class="column container">
-			<h2 class="title column__first">Gallery</h2>
-			<p class="paragraph column__article">
-				Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-			<div class="gallery column__item" id="lightgallery">
-				<a class="gallery__item gallery__item-1" href="img/1a.png">
-					<img class="gallery__img" src="img/1a.png" alt="">
-				</a>
-				<a class="gallery__item gallery__item-2" href="img/2a.png">
-					<img class="gallery__img" src="img/2a.png" alt="">
-				</a>
-				<a class="gallery__item gallery__item-3" href="img/3a.png">
-					<img class="gallery__img" src="img/3a.png" alt="">
-				</a>
-				<a class="gallery__item gallery__item-4" href="img/4a.png">
-					<img class="gallery__img" src="img/4a.png" alt="">
-				</a>
-				<a class="gallery__item gallery__item-5" href="img/5a.png">
-					<img class="gallery__img" src="img/5a.png" alt="">
-				</a>
-			</div>
-
-			<button class="button column__item column__last">VIEW MORE</button>
-		</div>
-	</section>
-
-	<section id="subscribe" class="subscribe">
-		<div class="subscribe__container">
-			<h2 class="subscribe__h2">Subscribe To Us</h2>
-			<p class="subscribe__p">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-			<form action="">
-				<input class="subscribe__text" type="text" name="email" placeholder="Your email address...">
-				<input class="subscribe__button" type="button" value="SUBSCRIBE">
-			</form>
-		</div>
-	</section>
-
-
-	<section id="blog" class="blog">
-		<div class="blog__container">
-			<h2 class="blog__h2">Blog</h2>
-			<p class="blog__p">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-				nisi
-				ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-			<div class="blog__images">
-				<div class="blog__image blog__image-1">
-					<div class="blog__date">
-						<span class="blog__day">20</span>
-						<span class="blog__month">NOV</span>
-					</div>
-					<div class="blog__gradient">
-						<a class="blog__a" href="">Green Smoothies: Too Much of a Good Thing?
-						</a>
-						<div class="blog__author">By Auskteez - 2 hours ago
-						</div>
-					</div>
+	<section id="about" class="t-cyan">
+		<div class="wrapper">
+			<article class="wrapper__split">
+				<img class="image" src="img/plate-of-berriers3.png" alt="">
+				<div class="column column--to-left column--to-center ">
+					<h2 class="title title--white column__margin-left">About Us</h2>
+					<p class="paragraph paragraph--white paragraph--left column__article column__margin-left">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum.</p>
+					<p class="paragraph paragraph--white paragraph--left column__paragraph column__margin-left">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+						voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+					</p>
 				</div>
-				<div class="blog__image blog__image-2">
-					<div class="blog__date">
-						<span class="blog__day">14</span>
-						<span class="blog__month">NOV</span>
-					</div>
-					<div class="blog__gradient">
-						<a class="blog__a" href="">Growing Food and a “Thirst” for Innovation
-
-						</a>
-						<div class="blog__author">By Auskteez - 3 hours ago
-						</div>
-					</div>
-				</div>
-				<div class="blog__image blog__image-3">
-					<div class="blog__date">
-						<span class="blog__day">10</span>
-						<span class="blog__month">NOV</span>
-					</div>
-					<div class="blog__gradient">
-						<a class="blog__a" href="">Pesticides & Food: What You Need to Know
-
-						</a>
-						<div class="blog__author">By Auskteez - 6 hours ago
-						</div>
-					</div>
-				</div>
-			</div>
-			<button class="blog__button">VIEW MORE</button>
+			</article>
 		</div>
 	</section>
 
-	<section id="contact" class="contact">
-		<div class="contact__container">
-			<h2 class="contact__h2">Contact</h2>
-			<p class="contact__p">For new projects, ideas, business or anything you'd like to discuss, contact with me!
-			</p>
-
-			<div class="contact__split">
-				<form class="contact__form" action="" method="post">
-					<ul>
-						<li>
-							<input class="contact__input" type="text" id="name" name="name" required
-								placeholder="Your name...">
-						</li>
-						<li>
-							<input class="contact__input" type="email" id="email" name="email" required
-								placeholder="Your email...">
-						<li>
-							<input class="contact__input" type="tel" id="phone" name="phone"
-								placeholder="Your phone number...">
-						<li>
-							<textarea class="contact__input contact__input--textarea" id="message" name="message"
-								required placeholder="Your messge..."></textarea>
-						</li>
-					</ul>
-				</form>
-				<address class="contact__address">
-					<span class="contact__bold">ADDRESS</span>
-					123 City name, Street, City, Country<br><br>
-					<span class="contact__bold">EMAIL</span>
-					cahee@domain.com<br><br>
-					<span class="contact__bold">PHONE</span>
-					+012 345 6789
-				</address>
-			</div>
+	<section id="" class="t-sky">
+		<div class="wrapper">
+			<article class="wrapper__split"></article>
 		</div>
-
 	</section>
 
+	<section id="" class="t-sun">
+		<div class="wrapper">
+			<article class="wrapper__axis"></article>
+		</div>
+	</section>
 
-	<footer id="footer" class="footer">
-		<div class="footer__container">
-			<span class="footer__code">coded by <a href="https://github.com/tomaszbujnicki">Tom</a> 2020</span>
-			<span class="footer__small-logo">Cahee</span>
-			<span class="footer__design">Designed with <span class="footer__love">love</span> by <a
-					href="https://unsplash.com/@auskteez/portfolio">Auskteez</a></span>
+	<section id="" class="t-blueberry">
+		<div class="wrapper">
+			<article class="wrapper__group"></article>
+		</div>
+	</section>
+
+	<section id="" class="t-purple">
+		<div class="wrapper">
+			<article class="wrapper__axis"></article>
+		</div>
+	</section>
+
+	<section id="" class="t-blur">
+		<div class="wrapper">
+			<article class="wrapper__axis"></article>
+		</div>
+	</section>
+
+	<footer id="" class="t-dark{">
+		<div class="wrapper">
+			<article class="wrapper__bar"></article>
 		</div>
 	</footer>
+
 
 	<script src="js/lightgallery.js"></script>
 	<script src="js/script.js"></script>
