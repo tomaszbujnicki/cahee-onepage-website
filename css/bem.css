@@ -78,34 +78,7 @@
     text-align: left;
 }
 
-.button {
-    background-color: #5585A2;
-    height: 55px;
-    width: 200px;
-    border: none;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-    display: block;
-    color: #fff;
-    font-family: "Raleway";
-    font-size: 20px;
-    font-weight: 300;
-    cursor: pointer;
-    transition: background 1s;
-}
 
-.button:hover,
-.button:focus {
-    outline: none;
-    font-weight: 400;
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #5585A2;
-    color: #5585A2;
-    transition: background 1s;
-}
-
-.button::-moz-focus-inner {
-    border: 0;
-}
 
 .image {
     width: 100%;

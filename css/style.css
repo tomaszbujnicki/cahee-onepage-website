@@ -1,10 +1,5 @@
-:focus{
-	outline: none;
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-	border: 0;
-  }
+
+
   
   
 body {
@@ -12,10 +7,7 @@ body {
 	font-size: 17px;
 	color: rgb(38, 38, 38);
 }
-button{
-	cursor: pointer;
-	font-family: Raleway;
-}
+
 
 /* .container{
 	max-width: 1172px;
@@ -101,7 +93,7 @@ button{
 	background-image: url(../img/truskawka-w-jogurcie.jpg);
 	background-position: center;
 	background-size: cover;
-	
+
 	min-height: 100vh;
 	box-sizing: border-box;
 
@@ -122,23 +114,7 @@ button{
 	font-weight: 300;
 	padding-bottom: 20px;	  
 }
-.home__button{
-	background-color: #FF6033;
-	height: 55px;
-	width: 200px;
-	font-size: 20px;
-	font-weight: 300;
-	color: #fff;
-	border: 0;
-	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-}
-.home__button:focus, 
-.home__button:hover{
-	background-color: rgba(0,0,0,0);
-	border: 2px solid #FF6033;
-	color: #FF6033;
-	transition: background 1s;
-}
+
 
 
 /* 
@@ -217,26 +193,7 @@ button{
 	border-width: 2px;
 	padding-left: 14px;
 }
-.subscribe__button{
-	font-size: 20px;
-	color: white;
-	font-weight: 300;
-	background-color: #96b92c;
-	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-	width: 170px;
-	height: 55px;
-	border: none;
-	font-family: Raleway;
-	box-sizing: border-box;
-	cursor: pointer;
-}
-.subscribe__button:focus, 
-.subscribe__button:hover{
-	background-color: rgba(0,0,0,0);
-	border: 2px solid #96b92c;
-	color: #96b92c;
-	transition: background 1s;
-}
+
 
 
 .blog__container{
@@ -256,25 +213,7 @@ button{
 	color: white;
 	text-align: center;
 }
-.blog__button{
-	background-color: #F72B3B;
-	height: 55px;
-	width: 200px;
-	border: none;
-	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-	display: block;
-	margin: 40px auto;
-	font-size: 20px;
-	font-weight: 300;
-	color: #fff;
-}
-.blog__button:focus, 
-.blog__button:hover{
-	background-color: rgba(0,0,0,0);
-	border: 2px solid #F72B3B;
-	color: #F72B3B;
-	transition: background 1s;
-}
+
 .blog__images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
