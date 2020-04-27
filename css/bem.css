@@ -1,4 +1,4 @@
-.column__margin-left {
+/* .column__margin-left {
     margin-left: 85px;
 }
 
@@ -28,7 +28,7 @@
 
 .column__last {
     margin-bottom: 120px
-}
+} */
 
 
 
@@ -41,42 +41,7 @@
 
 .article {}
 
-.title {
-    color: #262626;
-    font-family: "Raleway";
-    font-size: 90px;
-    font-weight: 700;
-}
 
-.title--white {
-    color: white;
-}
-
-.title--left {
-    text-align: left;
-}
-
-.title--right {
-    text-align: right;
-}
-
-.paragraph {
-    color: #262626;
-    font-family: "Raleway";
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 1.4;
-    max-width: 577px;
-    text-align: center;
-}
-
-.paragraph--white {
-    color: white;
-}
-
-.paragraph--left {
-    text-align: left;
-}
 
 
 

@@ -1,9 +1,7 @@
 .footer{
-	color: #B9B9B9;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+
 }
+
 .footer__code{
 	font-size: 16px;
 }

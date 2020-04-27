@@ -1,0 +1,18 @@
+.contact{
+	list-style: none;
+}
+.contact__element{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	.contact__element--first{
+		padding-top: 0;
+	}
+	.contact__element--last{
+		padding-bottom: 0;
+	}
+	
+.contact__label{
+	font-weight: 700;
+}
+

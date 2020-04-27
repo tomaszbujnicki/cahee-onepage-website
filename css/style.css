@@ -1,14 +1,5 @@
 
 
-  
-  
-body {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-	color: rgb(38, 38, 38);
-}
-
-
 /* .container{
 	max-width: 1172px;
 	margin: 0 auto;
@@ -349,15 +340,3 @@ body {
 	line-height: 1.6;
 
 }
-.contact__address{
-	display: flex;
-	flex-direction: column;
-	color: #262626;
-	font-weight: 300;
-	line-height: 1.4;
-	padding-left: 20px;
-}
-.contact__bold{
-	font-weight: 700;
-}
-

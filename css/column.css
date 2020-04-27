@@ -1,0 +1,20 @@
+.column{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+.column--axis {
+     align-items: center;
+}
+.column--left {
+    align-items: flex-start;
+}
+.column--right {
+    align-items: flex-end;
+}
+    
+.column--group {
+    justify-content: center;
+}
+
+
