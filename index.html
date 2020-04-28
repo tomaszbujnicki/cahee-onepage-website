@@ -11,9 +11,10 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bem.css">
+	<link rel="stylesheet" href="css/article.css">
 	<link rel="stylesheet" href="css/text.css">
+	<link rel="stylesheet" href="css/page.css">
 	<link rel="stylesheet" href="css/contact.css">
-	<link rel="stylesheet" href="css/full.css">
 	<link rel="stylesheet" href="css/theme.css">
 	<link rel="stylesheet" href="css/column.css">
 	<link rel="stylesheet" href="css/wrapper.css">
@@ -43,76 +44,74 @@
 
 	<section id="home" class="t-strawberry">
 		<div class="wrapper">
-			<article class="column column--group full text">
+			<article class="home column column--group text">
 				<h1 class="text__title text__title--medium text__title--heavy">Fresh Life</h1>
 				<p class="text__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 					minim
 					veniam, quis nostrud exercitation ullamco.</p>
-				<button class="button button--orange">GET FREE NOW</button>
+				<button class="button button--orange home__button">GET FREE NOW</button>
 			</article>
 		</div>
 	</section>
 
 	<section id="about" class="t-cyan">
-		<div class="wrapper">
-			<article class="wrapper__split">
-				<img class="image" src="img/plate-of-berriers3.png" alt="">
-				<div class="column column--group text">
-					<h2 class="text__title">About Us</h2>
-					<p class="text__paragraph">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-						in
-						voluptate velit esse cillum.</p>
-					<p class="text__paragraph">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-						voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-						inventore.
-					</p>
-				</div>
-			</article>
-		</div>
+		<article class="wrapper about">
+			<div class="about__picture">
+				<img class="image image--bigger" src="img/plate-of-berriers3.png" alt="">
+			</div>
+			<div class="about__description column column--group text">
+				<h2 class="text__title">About Us</h2>
+				<p class="text__paragraph">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+					exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+					in
+					voluptate velit esse cillum.</p>
+				<p class="text__paragraph">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+					voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+					inventore.
+				</p>
+			</div>
+		</article>
 	</section>
 
 	<section id="services" class="t-sky">
-		<div class="wrapper">
-			<article class="wrapper__split">
-				<div class="column column--to-center column__first column__margin-right">
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Online Shopping</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-cart.png" alt=""></div>
+		<article class="wrapper our-services">
+			<div class="our-services__list column column--to-center column__first column__margin-right">
+				<div class="services__item column__list-item">
+					<div class="services__item-name">
+						<span>Online Shopping</span>
 					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Quality Product</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-quality.png" alt=""></div>
-					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Domestic &amp; International Delivery</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-international.png" alt=""></div>
-					</div>
-					<div class="services__item column__list-item">
-						<div class="services__item-name">
-							<span>Well Organized</span>
-						</div>
-						<div class="services__item-icon"><img src="img/icon-carrot.png" alt=""></div>
-					</div>
+					<div class="services__item-icon"><img src="img/icon-cart.png" alt=""></div>
 				</div>
+				<div class="services__item column__list-item">
+					<div class="services__item-name">
+						<span>Quality Product</span>
+					</div>
+					<div class="services__item-icon"><img src="img/icon-quality.png" alt=""></div>
+				</div>
+				<div class="services__item column__list-item">
+					<div class="services__item-name">
+						<span>Domestic &amp; International Delivery</span>
+					</div>
+					<div class="services__item-icon"><img src="img/icon-international.png" alt=""></div>
+				</div>
+				<div class="services__item column__list-item">
+					<div class="services__item-name">
+						<span>Well Organized</span>
+					</div>
+					<div class="services__item-icon"><img src="img/icon-carrot.png" alt=""></div>
+				</div>
+			</div>
 
-				<div class="column column--to-right column--to-center bg-image">
-					<h2 class="text text__title">Our Services</h2>
-				</div>
-			</article>
-		</div>
+			<div class="our-services__picture column column--group column--right">
+				<h2 class="text text__title text--right">Our Services</h2>
+			</div>
+		</article>
 	</section>
 
 	<section id="gallery" class="t-sun">
 		<div class="wrapper">
-			<article class="column column--axis">
+			<article class="column column--center gallery-section">
 				<div class="text text--center">
 					<h2 class="text__title">Gallery</h2>
 					<p class="text__paragraph">
@@ -121,7 +120,7 @@
 						minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>
-				<div class="gallery column__item" id="lightgallery">
+				<div class="gallery gallery-section__gallery" id="lightgallery">
 					<a class="gallery__item gallery__item-1" href="img/1a.png">
 						<img class="gallery__img" src="img/1a.png" alt="">
 					</a>
@@ -139,22 +138,22 @@
 					</a>
 				</div>
 
-				<button class="button">VIEW MORE</button>
+				<button class="button gallery-section__button">VIEW MORE</button>
 			</article>
 		</div>
 	</section>
 
 	<section id="subscribe" class="t-blueberry">
 		<div class="wrapper">
-			<article class="wrapper__group">
-				<div class="text">
+			<article class="subscribe">
+				<div class="text subscribe__description">
 					<h2 class="text__title text__title--medium">Subscribe To Us</h2>
 					<p class="text__paragraph">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 					</p>
 				</div>
 
-				<form action="">
+				<form class="subscribe__form bar bar--start" action="">
 					<input class="subscribe__text" type="text" name="email" placeholder="Your email address...">
 					<input class="button button--olive" type="button" value="SUBSCRIBE">
 				</form>
@@ -164,7 +163,7 @@
 
 	<section id="blog" class="t-purple">
 		<div class="wrapper">
-			<article class="column column--axis">
+			<article class="column column--center">
 				<div class="text text--center">
 					<h2 class="text__title">Blog</h2>
 					<p class="text__paragraph">
@@ -221,9 +220,10 @@
 	<section id="contact" class="t-blur">
 		<div class="wrapper">
 			<article>
-				<div class="column column--axis text text--center">
+				<div class="column column--center text text--center">
 					<h2 class="text__title">Contact</h2>
-					<p class="text__paragraph">For new projects, ideas, business or anything you'd like to discuss, contact
+					<p class="text__paragraph">For new projects, ideas, business or anything you'd like to discuss,
+						contact
 						with
 						me!
 					</p>

@@ -20,7 +20,7 @@
 		padding-bottom: 40px;
 		padding-top: 40px;
 	}
-	.subscribe{
+/* 	.subscribe{
 		background: url(../img/subscribeBG.png) center bottom/ 100% no-repeat content-box;
 		height: 400px;
 	}
@@ -32,7 +32,7 @@
 	}
 	.subscribe__button{
 		margin-right: 200px;
-	}
+	} */
 	.contact__split{
 		grid-template-columns: 2fr 1fr;
 	}

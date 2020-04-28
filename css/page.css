@@ -1,0 +1,66 @@
+.home {
+    min-height: 100vh;
+    grid-column: span 4;
+}
+    .home__button {
+        margin-top: 30px
+    }
+
+.about{
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+    .about__picture {
+        grid-column: span 6;
+
+    }
+    .about__description {
+        grid-column: 8 / 13;
+    }
+
+.our-services{
+    padding-top: 100px;
+    padding-bottom:150px;
+}
+    .our-services__list{
+        grid-column: 2 / 6;
+        margin-top: 80px;
+    }
+    .our-services__picture{
+        grid-column: 7 / 13;
+        background-image: url(../img/tomatos-parts.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        background-origin: content-box;
+    }
+
+.gallery-section{
+    padding-top: 100px;
+    padding-bottom:100px;
+    grid-column: span 12;
+}
+    .gallery-section__gallery{
+        margin-top: 30px
+    } 
+    .gallery-section__button {
+        margin-top: 30px
+    }
+
+.subscribe{
+    padding-top: 100px;
+    padding-bottom:100px;
+    grid-column: span 12;
+
+}
+.subscribe__description{
+    max-width: 570px;
+}
+.subscribe__form{
+    display: inline;
+    max-width: 770px;
+}
+
+.subscribe__button{
+
+}

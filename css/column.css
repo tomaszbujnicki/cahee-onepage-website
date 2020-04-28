@@ -3,11 +3,8 @@
     flex-direction: column;
  }
  
-.column--axis {
+.column--center {
      align-items: center;
-}
-.column--left {
-    align-items: flex-start;
 }
 .column--right {
     align-items: flex-end;

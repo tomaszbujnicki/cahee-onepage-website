@@ -3,3 +3,8 @@
     align-items: center;
     justify-content: space-between;
  }
+
+ .bar--start{
+   justify-content: flex-start;
+}
+

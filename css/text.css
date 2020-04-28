@@ -13,6 +13,7 @@
 .text__title {
     font-size: 90px;
     font-weight: 700;
+    margin: 15px 0;
 }
     .text__title--medium {
         font-size: 60px;
@@ -26,8 +27,7 @@
 
 .text__paragraph {
     line-height: 1.4;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 5px 0;
 }
 
 
