@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/column.css">
 	<link rel="stylesheet" href="css/wrapper.css">
 	<link rel="stylesheet" href="css/button.css">
+	<link rel="stylesheet" href="css/footer.css">
 	<link rel="stylesheet" href="css/bar.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
@@ -45,10 +46,13 @@
 	<section id="home" class="t-strawberry">
 		<div class="wrapper">
 			<article class="home column column--group text">
-				<h1 class="text__title text__title--medium text__title--heavy">Fresh Life</h1>
-				<p class="text__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim
-					veniam, quis nostrud exercitation ullamco.</p>
+				<div class="home__description">
+					<h1 class="text__title text__title--medium text__title--heavy">Fresh Life</h1>
+					<p class="text__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad
+						minim
+						veniam, quis nostrud exercitation ullamco.</p>
+				</div>
 				<button class="button button--orange home__button">GET FREE NOW</button>
 			</article>
 		</div>
@@ -112,7 +116,7 @@
 	<section id="gallery" class="t-sun">
 		<div class="wrapper">
 			<article class="column column--center gallery-section">
-				<div class="text text--center">
+				<div class="text text--center gallery-section__description">
 					<h2 class="text__title">Gallery</h2>
 					<p class="text__paragraph">
 						Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -163,15 +167,15 @@
 
 	<section id="blog" class="t-purple">
 		<div class="wrapper">
-			<article class="column column--center">
-				<div class="text text--center">
+			<article class="column column--center blog-section">
+				<div class="text text--center blog-section__description">
 					<h2 class="text__title">Blog</h2>
 					<p class="text__paragraph">
 						Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
 						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
 					</p>
 				</div>
-				<div class="blog__images">
+				<div class="blog blog-section__images">
 					<div class="blog__image blog__image-1">
 						<div class="blog__date">
 							<span class="blog__day">20</span>
@@ -218,9 +222,10 @@
 
 
 	<section id="contact" class="t-blur">
+
 		<div class="wrapper">
-			<article>
-				<div class="column column--center text text--center">
+			<article class="contact column column--center">
+				<div class="text text--center contact__description">
 					<h2 class="text__title">Contact</h2>
 					<p class="text__paragraph">For new projects, ideas, business or anything you'd like to discuss,
 						contact
@@ -228,7 +233,7 @@
 						me!
 					</p>
 				</div>
-				<div class="wrapper__split">
+				<div class="contact__content">
 					<form class="contact__form" action="" method="post">
 						<ul>
 							<li>
@@ -247,7 +252,7 @@
 							</li>
 						</ul>
 					</form>
-					<address>
+					<address class="contact__address">
 						<ul class="contact text">
 							<li class="contact__element contact__element--first">
 								<span class="contact__label">ADDRESS</span><br>
@@ -266,14 +271,15 @@
 				</div>
 			</article>
 		</div>
+
 	</section>
 
 	<footer id="footer" class="t-dark">
 		<div class="wrapper">
-			<article class="bar text">
-				<span class="">coded by <a href="https://github.com/tomaszbujnicki">Tom</a> 2020</span>
-				<span class="">Cahee</span>
-				<span class="">Designed with <span class="">love</span> by <a
+			<article class="footer footer-section bar text">
+				<span class="footer__code">coded by <a href="https://github.com/tomaszbujnicki">Tom</a> 2020</span>
+				<span class="logo logo--small">Cahee</span>
+				<span class="footer__design">Designed with <span class="footer__love">love</span> by <a
 						href="https://unsplash.com/@auskteez/portfolio">Auskteez</a></span>
 			</article>
 		</div>

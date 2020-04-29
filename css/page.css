@@ -1,9 +1,10 @@
 .home {
     min-height: 100vh;
-    grid-column: span 4;
+    grid-column: span 12;
 }
-    .home__button {
-        margin-top: 30px
+    .home__description{
+        max-width: 370px;
+        margin-bottom: 30px;
     }
 
 .about{
@@ -12,7 +13,6 @@
 }
     .about__picture {
         grid-column: span 6;
-
     }
     .about__description {
         grid-column: 8 / 13;
@@ -37,30 +37,68 @@
 
 .gallery-section{
     padding-top: 100px;
-    padding-bottom:100px;
+    padding-bottom:120px;
     grid-column: span 12;
 }
-    .gallery-section__gallery{
-        margin-top: 30px
-    } 
-    .gallery-section__button {
-        margin-top: 30px
+    .gallery-section__description{
+        max-width: 577px;
+        margin-bottom: 30px;
     }
+    .gallery-section__gallery{
+        margin-top: 15px;
+        margin-bottom: 45px;
+    } 
 
 .subscribe{
-    padding-top: 100px;
-    padding-bottom:100px;
+    padding-top: 150px;
+    padding-bottom:150px;
     grid-column: span 12;
 
 }
-.subscribe__description{
-    max-width: 570px;
-}
-.subscribe__form{
-    display: inline;
-    max-width: 770px;
-}
+    .subscribe__description{
+        max-width: 570px;
+        margin-bottom: 30px;
+    }
+    .subscribe__form{
+        display: inline;
+        max-width: 770px;
+    }
 
-.subscribe__button{
+.blog-section {
+    padding-top: 100px;
+    padding-bottom:120px;
+    grid-column: span 12;
+}
+    .blog-section__description{
+        max-width: 570px;
+        margin-bottom: 30px;
+    }
+    .blog-section__images{
+        margin-bottom: 50px;
+        width: 100%;
+    }
 
+.contact{
+    padding-top: 100px;
+    padding-bottom:120px;
+    grid-column: span 12;
+}
+    .contact__description{
+        margin-bottom: 30px;
+        max-width: 350px;
+    }
+    .contact__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .contact__form{
+        grid-column: span 5;
+    }
+    .contact__address{
+        grid-column: 8 / 13;
+    }
+
+.footer-section{
+    grid-column: span 12;
 }
