@@ -22,14 +22,74 @@
         background-size: contain;
         background-origin: content-box;
         grid-column: span 6;
-        padding-left: 10%;
     }
 
     .contact__form{
         grid-column: span 6;
         max-width: 500px;
+        width: 100%;
     }
     .contact__address{
         grid-column: span 6;
         padding-left: 10%;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .page__services-picture{
+            grid-column: 8 /13;
+        }
+        .page__services-list{
+            margin-top: 0;
+        }
+
+    }
+
+    @media only screen and (max-width: 991px) {
+        .page__about-picture {
+            grid-column: 3 / 9;
+        }
+        .page__about-description {
+            grid-column: span  12;
+            grid-row: 1;
+            background: none;
+            margin-bottom: 40px;
+            justify-self: center;
+            padding-left: 0;
+            
+        }
+        .page__services-picture{
+            grid-column: span  12;
+            grid-row: 1;
+            background: none;
+            margin-bottom: 40px;
+            justify-self: center;
+
+        }
+        .page__services-list{
+            grid-column: span  12;
+            grid-row: 2;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+        .contact__form{
+            grid-column: span  12;
+            grid-row: 2;
+            justify-self: center;
+        }
+        .contact__address{
+            grid-column: span  12;
+            grid-row: 1;
+            background: none;
+            margin-bottom: 40px;
+            justify-self: center;
+        }
+
+    }
+
+    
+    @media only screen and (max-width: 576px) {
+  
+
     }

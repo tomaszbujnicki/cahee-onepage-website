@@ -69,6 +69,16 @@
 	max-width: 770px;
 }
 
+@media only screen and (max-width: 576px) {
+	.subscribe__form{
+		flex-direction: column;
+	}
+	.subscribe__form .button{
+		margin-top: 20px;
+	}
+
+}
+
 .subscribe__text{
 	font-weight: 300;
 	font-size: 15px;
@@ -109,10 +119,22 @@
 	gap: 28px;
 	width: 100%;
 }
+@media only screen and (max-width: 768px) {
+	.blog{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.blog{
+		grid-template-columns: 1fr;
+	}
+
+}
 .blog__image{
 	height: 312px;
 	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 	position: relative;
+	max-width: 375px;
 }
 .blog__image-1{
 	background: url(../img/blog-1.png) center no-repeat content-box;
