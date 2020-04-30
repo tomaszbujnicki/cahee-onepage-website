@@ -18,7 +18,7 @@
         "medium-1 medium-1 medium-1 medium-2 medium-2 medium-2"
         "medium-1 medium-1 medium-1 medium-2 medium-2 medium-2"
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
@@ -27,10 +27,10 @@
             "small-1  small-2"
             "medium-1 medium-2"
     }
-    @media o
+
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
     .gallery {
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -38,7 +38,7 @@
             "small-1"
             "small-2"
             "medium-1"
-            "medium-2";
+            "medium-2"
     }
 }
 

@@ -69,7 +69,7 @@
 	max-width: 770px;
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
 	.subscribe__form{
 		flex-direction: column;
 	}
@@ -119,12 +119,12 @@
 	gap: 28px;
 	width: 100%;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	.blog{
 		grid-template-columns: 1fr 1fr;
 	}
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
 	.blog{
 		grid-template-columns: 1fr;
 	}

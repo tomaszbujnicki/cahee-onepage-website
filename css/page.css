@@ -34,7 +34,7 @@
         padding-left: 10%;
     }
 
-    @media only screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
         .page__services-picture{
             grid-column: 8 /13;
         }
@@ -44,7 +44,7 @@
 
     }
 
-    @media only screen and (max-width: 991px) {
+    @media (max-width: 991px) {
         .page__about-picture {
             grid-column: 3 / 9;
         }
@@ -63,16 +63,14 @@
             background: none;
             margin-bottom: 40px;
             justify-self: center;
-
         }
         .page__services-list{
             grid-column: span  12;
             grid-row: 2;
         }
-
     }
 
-    @media only screen and (max-width: 768px) {
+    @media  (max-width: 768px) {
         .contact__form{
             grid-column: span  12;
             grid-row: 2;
@@ -85,11 +83,4 @@
             margin-bottom: 40px;
             justify-self: center;
         }
-
-    }
-
-    
-    @media only screen and (max-width: 576px) {
-  
-
     }
