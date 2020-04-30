@@ -1,0 +1,49 @@
+.article{
+    display: flex;
+    flex-direction: column;
+ }
+    .article--space {
+        padding-top: 100px;
+        padding-bottom:120px;
+    }
+    .article--full{
+        min-height: 100vh;
+    }
+    .article--center {
+        align-items: center;
+    }
+    .article--group {
+        justify-content: center;
+    }
+    .article--right {
+        align-items: flex-end;
+    }
+    
+.article__text{
+    max-width: 577px;
+}
+    .article__text--center{
+        text-align: center;
+    }
+    .article__text--short{
+        max-width: 370px;
+    }
+
+.article__heading{
+    margin-bottom: 30px;
+}
+
+.article__paragraph{
+    margin: 10px 0;
+}
+
+.article__item{
+    margin-top: 45px;
+}
+
+
+
+    
+
+
+

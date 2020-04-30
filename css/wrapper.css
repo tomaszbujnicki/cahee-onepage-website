@@ -5,6 +5,11 @@
     margin-right: auto;
     margin-left: auto;
     box-sizing: content-box;
+}
+
+.wrapper__grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    width: 100%;
 }
+

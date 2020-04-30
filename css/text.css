@@ -3,33 +3,26 @@
     font-size: 17px;
     font-weight: 300;
 }
-    .text--center{
-        text-align: center;
-    }
-    .text--right {
-        text-align: right;
-    }
-
 .text__title {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text__heading {
     font-size: 90px;
     font-weight: 700;
-    margin: 15px 0;
 }
-    .text__title--medium {
-        font-size: 60px;
-    }
-    .text__title--small {
+    .text__heading--small {
         font-size: 40px;
-    }
-    .text__title--heavy {
-        font-weight: 800;
     }
 
 .text__paragraph {
     line-height: 1.4;
-    margin: 5px 0;
 }
 
+.text__strong{
+    font-weight: 700;
+}
 
 
 

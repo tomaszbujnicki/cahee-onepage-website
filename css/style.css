@@ -65,6 +65,10 @@
 	100%	{transform: scale(1);}
 }
 
+.subscribe__form{
+	max-width: 770px;
+}
+
 .subscribe__text{
 	font-weight: 300;
 	font-size: 15px;
@@ -102,7 +106,8 @@
 .blog{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 28px;
+	gap: 28px;
+	width: 100%;
 }
 .blog__image{
 	height: 312px;
@@ -206,5 +211,4 @@
 	min-height: 250px;
 	resize: none;
 	line-height: 1.6;
-
 }
