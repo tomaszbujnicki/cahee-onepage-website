@@ -24,6 +24,11 @@ html{
             padding-left: 0;  
         }
     }
+    @media (max-width: 576px) {
+        .page__about-picture {
+            max-width: 80%;
+        }
+    }
 
     .page__services-list{
         grid-column: span 6;

@@ -8,6 +8,7 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	min-height: 50px;
 }
+
 .nav-fixed--bigger{								
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -94,10 +95,6 @@
 	  bottom: 7px;
 }
 
-
-
-
-
 @media (max-width: 768px) {
 	.nav-fixed__hamburger{
 		display: flex;
@@ -137,3 +134,18 @@
 		overflow: hidden;
 	}
 }
+
+@media (max-height: 415px)  {
+	.nav-fixed {
+		background-color: transparent;
+	}
+	.nav-fixed__ul{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.white{
+		background-color: rgba(255, 255, 255,1);
+	}
+}
+
+
