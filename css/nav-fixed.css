@@ -1,0 +1,139 @@
+.nav-fixed {
+	position: fixed;
+	width: 100vw;
+	transition: 300ms;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 100;
+	background-color: rgba(255, 255, 255, 0.7);
+	min-height: 50px;
+}
+.nav-fixed--bigger{								
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.nav-fixed__flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-fixed__ul{
+	display: flex;
+    justify-content: space-between;
+}
+.nav-fixed__li{
+	margin-left: 20px;
+}
+.nav-fixed__a{
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	text-decoration: none;
+	color: #262626;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	height: 25px;
+	padding-top: 9px;
+	padding-left: 2px;
+	padding-right: 2px;
+	position: relative;
+}	
+
+.nav-fixed__a::before{
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #ff6033;
+	position: absolute;
+	top: -5px;
+	left: 0;
+	right: 0;
+	transform: scale(0, 1);
+	transition: transform ease-in-out 250ms;
+}
+
+.nav-fixed__a:hover::before{
+	transform: scale(1, 1);
+}
+
+.nav-fixed__hamburger{
+	display: none;
+	height: 50px;
+	cursor: pointer;
+	width: 40px;
+	right: 50px;
+	position: absolute;
+}
+@media (max-width: 298px) {
+	.nav-fixed__hamburger{
+		right: 10px;
+	}
+}
+  
+  .nav-fixed__hamburger span::after, 
+  .nav-fixed__hamburger span::before, 
+  .nav-fixed__hamburger span {
+	display: block;
+	background-color: #262626;
+	height: 2px;
+	width: 30px;
+	border-radius: 2px;
+	position: relative;
+  }
+  .nav-fixed__hamburger span::after, 
+  .nav-fixed__hamburger span::before{
+	content: '';
+	position: absolute;
+  }
+  .nav-fixed__hamburger span::before{
+	top: 7px;
+  }
+  .nav-fixed__hamburger span::after{
+	  bottom: 7px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+	.nav-fixed__hamburger{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.nav-fixed__ul{
+		display: none;
+		flex-direction: column;
+		padding-top: 50px;
+		align-self: center;
+	}
+	.nav-fixed__flex{
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.nav-fixed__li{
+		margin-bottom: 20px;
+	}
+	.nav-fixed__a{
+		font-size: 20px;
+	}
+	.nav-fixed__a:hover{
+		color: #ff6033;
+		transition: none;
+	}
+	.nav-fixed__a:hover::before{
+		display: none;
+	}
+	.active {
+		display: flex;
+	}
+	.white{
+		background-color: rgba(255, 255, 255,1);
+		transition: 1000ms;
+		height: 450px;
+		overflow: hidden;
+	}
+}

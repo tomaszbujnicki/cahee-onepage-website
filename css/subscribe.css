@@ -25,8 +25,7 @@
 	color: rgb(38, 38, 38);
 	font-family: Raleway;
 }
-.subscribe__text:hover,
-.subscribe__text:focus{
+.subscribe__text:hover{
 	border-color: #FF6033;
 	border-width: 2px;
 	padding-left: 14px;

@@ -10,6 +10,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/lightgallery.css">
+	<link rel="stylesheet" href="css/focus.css">
+
 	<link rel="stylesheet" href="css/article.css">
 	<link rel="stylesheet" href="css/bar.css">
 	<link rel="stylesheet" href="css/blog.css">
@@ -20,8 +22,9 @@
 	<link rel="stylesheet" href="css/image.css">
 	<link rel="stylesheet" href="css/list.css">
 	<link rel="stylesheet" href="css/logo.css">
-	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/nav-fixed.css">
 	<link rel="stylesheet" href="css/page.css">
+	<link rel="stylesheet" href="css/scroll-fixed.css">
 	<link rel="stylesheet" href="css/service.css">
 	<link rel="stylesheet" href="css/subscribe.css">
 	<link rel="stylesheet" href="css/text.css">
@@ -33,20 +36,27 @@
 </head>
 
 <body class="page text">
-	<header class="">
-		<div class="wrapper">
-			<div class="wrapper__bar">
-				<div class="logo">
 
-				</div>
+	<header id="nav-bar" class="nav-fixed">
+		<nav class="nav-fixed__flex wrapper">
+			<a class="logo" href="#">Cahee</a>
+			<ul id="main-nav" class="nav-fixed__ul">
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#home">home</a></li>
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#about">about</a></li>
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#services">services</a></li>
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#gallery">gallery</a></li>
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#blog">blog</a></li>
+				<li class="nav-fixed__li"><a class="nav-fixed__a" href="#contact">contact</a></li>
+			</ul>
+			<a id="hamburger" href="" class="nav-fixed__hamburger"><span></span></a>
 
-				<nav>
-
-				</nav>
-
-			</div>
-		</div>
+			<img id="scroll" src="img/scroll.png" alt="" class="scroll-fixed">
+		</nav>
 	</header>
+
+
+
+
 	<section id="home" class="t-strawberry">
 		<div class="wrapper">
 			<article class="article article--full article--space article--group">
@@ -98,7 +108,7 @@
 		</div>
 	</section>
 
-	<section id="services" class="t-sky">
+	<section id="services" class="t-sky" name="services">
 		<div class="wrapper">
 			<article class="article article--space">
 				<div class="wrapper__grid">
@@ -314,7 +324,7 @@
 		<div class="wrapper">
 			<article class="footer footer-section bar">
 				<span class="footer__code">coded by <a href="https://github.com/tomaszbujnicki">Tom</a> 2020</span>
-				<span class="logo logo--small">Cahee</span>
+				<a class="logo logo--small" href="#">Cahee</a>
 				<span class="footer__design">Designed with <span class="footer__love">love</span> by <a
 						href="https://unsplash.com/@auskteez/portfolio">Auskteez</a></span>
 			</article>

@@ -1,0 +1,6 @@
+:focus{
+    outline: 2px #e00 dashed
+}
+:active{
+    outline: none;
+}
