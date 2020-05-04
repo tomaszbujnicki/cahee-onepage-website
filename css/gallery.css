@@ -46,6 +46,12 @@
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+.gallery__item:focus {
+    outline: 2px #e00 dashed;
+    outline-offset: 3px;
+}
+
+
 .gallery__item-1 {
     grid-area: big;
 }

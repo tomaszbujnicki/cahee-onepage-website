@@ -2,10 +2,10 @@ $(window).scroll(function () {
     var top = $(window).scrollTop();
     if (top < 200) {
         $('.nav-fixed').addClass('nav-fixed--bigger');
-        $('#scroll').hide();
+        $('#scroll').show();
     } else {
         $('.nav-fixed').removeClass('nav-fixed--bigger');
-        $('#scroll').show();
+        $('#scroll').hide();
     }
 });
 
