@@ -1,0 +1,6 @@
+.image {
+    width: 100%;
+}
+.image--bigger{
+    transform: scale(1.20);
+}

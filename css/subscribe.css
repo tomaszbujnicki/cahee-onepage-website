@@ -1,0 +1,33 @@
+.subscribe{
+	max-width: 770px;
+}
+
+@media (max-width: 576px) {
+	.subscribe{
+		flex-direction: column;
+    }
+    .subscribe__text{
+        margin-bottom: 20px;
+    }
+}
+
+.subscribe__text{
+	font-weight: 300;
+	font-size: 15px;
+	height: 55px;
+	width: 100%;
+	padding-left: 15px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(38, 38, 38);
+	color: rgb(38, 38, 38);
+	font-family: Raleway;
+}
+.subscribe__text:hover,
+.subscribe__text:focus{
+	border-color: #FF6033;
+	border-width: 2px;
+	padding-left: 14px;
+}

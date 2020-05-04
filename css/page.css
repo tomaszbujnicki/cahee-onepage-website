@@ -10,6 +10,21 @@
         padding-left: 15%;
     }
 
+    @media (max-width: 991px) {
+        .page__about-picture {
+            grid-column: span 12;
+            max-width: 400px;
+            justify-self: center;
+        }
+        .page__about-description {
+            grid-column: span  12;
+            grid-row: 1;
+            margin-bottom: 40px;
+            justify-self: center;
+            padding-left: 0;  
+        }
+    }
+
     .page__services-list{
         grid-column: span 6;
         max-width: 500px;
@@ -24,16 +39,6 @@
         grid-column: span 6;
     }
 
-    .contact__form{
-        grid-column: span 6;
-        max-width: 500px;
-        width: 100%;
-    }
-    .contact__address{
-        grid-column: span 6;
-        padding-left: 10%;
-    }
-
     @media (max-width: 1200px) {
         .page__services-picture{
             grid-column: 8 /13;
@@ -43,31 +48,29 @@
         }
 
     }
-
     @media (max-width: 991px) {
-        .page__about-picture {
-            grid-column: 3 / 9;
-        }
-        .page__about-description {
-            grid-column: span  12;
-            grid-row: 1;
-            background: none;
-            margin-bottom: 40px;
-            justify-self: center;
-            padding-left: 0;
-            
-        }
         .page__services-picture{
             grid-column: span  12;
             grid-row: 1;
-            background: none;
+            background-position: center;
             margin-bottom: 40px;
             justify-self: center;
+            min-height: 300px;
         }
         .page__services-list{
             grid-column: span  12;
             grid-row: 2;
         }
+    }
+
+    .contact__form{
+        grid-column: span 6;
+        max-width: 500px;
+        width: 100%;
+    }
+    .contact__address{
+        grid-column: span 6;
+        padding-left: 10%;
     }
 
     @media  (max-width: 768px) {
