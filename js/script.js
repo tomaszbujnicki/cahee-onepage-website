@@ -1,11 +1,11 @@
 function scrollPosition(){
     var scroll = window.scrollY;
     if (scroll < 200) {
-        $('.nav-fixed').addClass('nav-fixed--bigger');
-        $('#scroll').show();
+        document.getElementById("nav-bar").classList.add('nav-fixed--bigger')
+        document.getElementById("scroll").style="display:block";
     } else {
-        $('.nav-fixed').removeClass('nav-fixed--bigger');
-        $('#scroll').hide();
+        document.getElementById("nav-bar").classList.remove('nav-fixed--bigger')
+        document.getElementById("scroll").style="display:none";
     }
 }
 document.addEventListener("DOMContentLoaded", scrollPosition);
